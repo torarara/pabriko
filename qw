@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while true; do 
+	git add .; 
+	git commit -a -m new; 
+	git push -u origin;
+	sleep 600;
+done;
+
+
